@@ -206,7 +206,7 @@
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("function getComponent(){\r\n    return __webpack_require__.e(/*! import() | lodash */ \"vendors~lodash\").then(__webpack_require__.t.bind(null, /*! lodash */ \"./node_modules/lodash/lodash.js\", 7))\r\n        .then(({ default: _ }) => {\r\n            let elelment = document.createElement('div')\r\n            elelment.innerHTML = _.join(['Hello', 'webpack!'],' ')\r\n            return elelment\r\n        })\r\n        .catch(error => 'An error occurred while loading the component')\r\n}\r\n\r\ngetComponent().then(component => {\r\n    document.body.appendChild(component())\r\n})\n\n//# sourceURL=webpack:///./src/index.js?");
+eval("async function getComponent(){\r\n    let elelment = document.createElement('div')\r\n    const { default: _ } = await __webpack_require__.e(/*! import() | lodash */ \"vendors~lodash\").then(__webpack_require__.t.bind(null, /*! lodash */ \"./node_modules/lodash/lodash.js\", 7))\r\n    elelment.innerHTML = _.join(['Hello', 'webpack!'],' ')\r\n    return elelment\r\n}\r\n\r\ngetComponent().then(component => {\r\n    document.body.appendChild(component())\r\n})\n\n//# sourceURL=webpack:///./src/index.js?");
 
 /***/ })
 
