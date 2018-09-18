@@ -1,5 +1,6 @@
 {
   "name": "webpack-guides",
+  "sideEffects": true,
   "version": "1.0.0",
   "description": "",
   "private": true,
