@@ -1,0 +1,26 @@
+{
+  "name": "webpack-guides",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/webpack-numbers.js",
+  "module": "src/index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "lodash": "^4.17.11",
+    "webpack": "^4.19.1",
+    "webpack-cli": "^3.1.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Btwn/webpack-guides.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Btwn/webpack-guides/issues"
+  },
+  "homepage": "https://github.com/Btwn/webpack-guides#readme"
+}
